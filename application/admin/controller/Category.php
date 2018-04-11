@@ -39,6 +39,8 @@ class Category extends Controller
 
         $res=$this->obj->add($data);
 
+        echo $res;
+
     }
 
 }
